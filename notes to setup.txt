@@ -29,3 +29,5 @@ data: bit.ly/mockcoursedata
 npm install axios
 
 c:/my/Practice/ns-question/node-questionBankFlux
+
+after install everything do type -  "gulp" in the termminal

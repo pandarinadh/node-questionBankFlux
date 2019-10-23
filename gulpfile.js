@@ -42,12 +42,12 @@ gulp.task('connect', function() {
     });
 });
 
-/*
+
 gulp.task('browser', function(){
     gulp.src('dist/index.html')
     .pipe(open({app: browser}));
   });
-*/
+
 gulp.task('open', ['connect'], function(){
     gulp.src('dist/index.html')
     .pipe(open({uri: config.devBaseUrl + ':' + config.port + '/', app: 'chrome'}));
